@@ -30,12 +30,12 @@ const Navbar = () => {
                         </div>
                     </div>
 
-
                     <div className="col-md-12" style={{ width: "100vw" }}>
                         <div className="container-fluid d-flex justify-content-between">
                             <div className="logo mr-auto" >
                                 <h1 className="text-light"><a href="index.php"><img src={img1} alt="Apple Pharma" className="logo-visibility" /></a></h1>
                             </div>
+
 
                             <nav className="nav-menu d-none d-lg-block" id="navbar1" >
                                 <ul>
@@ -43,7 +43,7 @@ const Navbar = () => {
                                     <li><a href="products.php">Products</a></li>
                                     <li><a href="about us.php">About Us</a></li>
                                     <li><a href="Contactus.php">Contact Us</a></li>
-                                   
+
                                 </ul>
                             </nav>
 
