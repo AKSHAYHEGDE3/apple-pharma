@@ -62,7 +62,9 @@ const Footer = () => {
                 </div>
                 <div className='container'>
                     <ul className='foote_bottom_ul_amrc mobile-visibility2'>
-                        <p><q>" . $quote . "</q></p>
+                        <p><q>For all the material supplied, COA will be provided.
+
+</q></p>
                     </ul>
                   
                     <p className='text-center'>Copyright @2021 Apple Pharma | Designed With by Innovatiive Creators</p>
