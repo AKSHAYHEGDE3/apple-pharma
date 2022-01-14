@@ -8,35 +8,38 @@ const Footer = () => {
                 <div className='container bottom_border'>
                     <div className='row'>
                         <div className=' col-sm-4 col-md col-sm-4  col-12 col'>
-                            <h5 className='headin5_amrc col_white_amrc pt2'>Trouve nous</h5>
+                            <h5 className='headin5_amrc col_white_amrc pt2'>Find Us</h5>
                            
-                            <p className='mb10'><i className='fa fa-location-arrow'></i>&nbsp;" . $footeraddress . "</p>
-                            <p><i className='fa fa-phone'></i>&nbsp; " . $firstnumber . "  </p>
-                            <p><i className='fa fa-phone'></i>&nbsp;  " . $secondnumber . "  </p>
-                            <p><i className='fa fa fa-envelope'></i>&nbsp; " . $footeremail . "  </p>
+                            <p className='mb10'><i className='fa fa-location-arrow'></i>&nbsp; Apple Pharma Shop</p>
+                            <p><i className='fa fa-phone'></i>&nbsp; No.2 & 3,Kasturi Sadan </p>
+                            <p><i className='fa fa-phone'></i>&nbsp;New Deewanman, Vasai  </p>
+                            <p><i className='fa fa fa-envelope'></i>&nbsp;(W) Palghar 401202  </p>
+                            <p><i className=''></i>&nbsp;  +91 9820053645  </p>
+                            <p><i className=''></i>&nbsp;  +91 9322440515  </p>
+                            <p><i className=''></i>&nbsp;  sales@applepharmagroup.com  </p>
 
 
                         </div>
                         <div className=' col-sm-4 col-md  col-6 col'>
-                            <h5 className='headin5_amrc col_white_amrc pt2'>Liens rapides</h5>
+                            <h5 className='headin5_amrc col_white_amrc pt2'>Quick links</h5>
                           
                             <ul className='footer_ul_amrc'>
                                 <li><a href='api.php'>API</a></li>
                                 <li><a href='excipients.php'>Excipients</a></li>
-                                <li><a href='Vitamins.php'>Les vitamines</a></li>
-                                <li><a href='Chemical.php'>Produits chimiques</a></li>
-                                <li><a href='Solvents.php'>Solvants</a></li>
+                                <li><a href='Vitamins.php'>Vitamins</a></li>
+                                <li><a href='Chemical.php'>Chemicals</a></li>
+                                <li><a href='Solvents.php'>Solvents</a></li>
                             </ul>
                          
                         </div>
 
                         <div className=' col-sm-4 col-md  col-6 col'>
-                            <h5 className='headin5_amrc col_white_amrc pt2'>Des pages</h5>
+                            <h5 className='headin5_amrc col_white_amrc pt2'>Pages</h5>
                            
                             <ul className='footer_ul_amrc'>
-                                <li><a href='index.php'>Domicile</a></li>
-                                <li><a href='about us.php'>Contactez-nous</a></li>
-                                <li><a href='Contactus.php'>À propos de nous</a></li>
+                                <li><a href='index.php'>Home</a></li>
+                                <li><a href='about us.php'>Contact Us</a></li>
+                                <li><a href='Contactus.php'>About Us</a></li>
                             </ul>
                           
                         </div>
@@ -62,7 +65,7 @@ const Footer = () => {
                         <p><q>" . $quote . "</q></p>
                     </ul>
                   
-                    <p className='text-center'>droits d'auteur @2021 Apple Pharma | Conçu avec par Innovatiive Creators</p>
+                    <p className='text-center'>Copyright @2021 Apple Pharma | Designed With by Innovatiive Creators</p>
 
 
                 </div>

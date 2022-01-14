@@ -7,8 +7,8 @@ const ContactUs = () => {
                 <div className='container'>
 
                     <div className='section-title' data-aos='zoom-out'>
-                        <h2>Contacter</h2>
-                        <p>Nous contacter</p>
+                        <h2>Contact</h2>
+                        <p>Contact Us</p>
                     </div>
 
                     <div className='row mt-3'>
@@ -23,7 +23,7 @@ const ContactUs = () => {
                             <form action='' method='post' role='form'>
                                 <div className='form-row'>
                                     <div className='col-md-6 form-group'>
-                                        <input type='text' name='name' className='form-control' id='name' placeholder='votre nom' />
+                                        <input type='text' name='name' className='form-control' id='name' placeholder='Your Name' />
                                         <div className='validate'></div>
                                     </div>
                                     <div className='col-md-6 form-group'>
@@ -33,28 +33,28 @@ const ContactUs = () => {
                                 </div>
                                 <div className='form-row'>
                                     <div className='col-md-12 form-group'>
-                                        <input type='text' className='form-control' name='phone' id='phone' placeholder='Numéro de téléphone' />
+                                        <input type='text' className='form-control' name='phone' id='phone' placeholder='Phone Number' />
                                         <div className='validate'></div>
                                     </div>
                                 </div>
                                 <div className='form-row'>
                                     <div className='col-md-6 form-group'>
-                                        <input type='text' className='form-control' name='companyName' id='companyName' placeholder='Nom de la compagnie' data-rule='required' data-msg='Please enter the company name' />
+                                        <input type='text' className='form-control' name='companyName' id='companyName' placeholder='Company Name' data-rule='required' data-msg='Please enter the company name' />
                                         <div className='validate'></div>
                                     </div>
                                     <div className='col-md-6 form-group'>
-                                        <input type='text' className='form-control' name='subject' id='subject' placeholder='Matière' />
+                                        <input type='text' className='form-control' name='subject' id='subject' placeholder='Subject' />
                                         <div className='validate'></div>
                                     </div>
                                 </div>
                                 <div className='form-row'>
                                     <div className='col-md-12 form-group'>
-                                        <textarea className=' form-control' name='message' rows='5' placeholder='Un message'></textarea>
+                                        <textarea className=' form-control' name='message' rows='5' placeholder='Message'></textarea>
                                         <div className='validate'></div>
                                     </div>
                                 </div>
 
-                                <div className='text-center'><button name='submit' type='submit'>Envoyer le message</button></div>
+                                <div className='text-center'><button name='submit' type='submit'> Send message</button></div>
                             </form>
 
                         </div>
