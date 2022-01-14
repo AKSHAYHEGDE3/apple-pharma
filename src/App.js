@@ -11,8 +11,7 @@ function App() {
       {/* <Nav1 /> */}
      <Navbar />
      <Carousel />
-     <ChooseUs />
-     <Footer />
+
     </div>
   );
 }
