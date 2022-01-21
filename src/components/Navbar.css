@@ -1,0 +1,26 @@
+@media screen and (min-width:990px) {
+    .toggle,.res-div{
+        display: none;
+    }
+}
+.res-div{
+    margin-top: 10%;
+}
+.res-div ul li{
+    margin-left: 80%;
+}
+@media (min-width:500px) and (max-width:700px) {
+    .res-div{
+        margin-top: 13%;
+
+    }
+}
+
+@media screen and (max-width:499px) {
+    .res-div{
+        margin-top: 20%;
+    }
+    .res-div ul li{
+        margin-left: 70%;
+    }
+}

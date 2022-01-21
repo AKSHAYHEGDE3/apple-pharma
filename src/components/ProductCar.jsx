@@ -18,13 +18,13 @@ const options = {
     smartSpeed: 1000,
     responsive: {
         0: {
-            items: 3,
+            items: 1,
         },
         400: {
-            items: 3,
+            items: 1,
         },
         600: {
-            items: 3,
+            items: 1,
         },
         700: {
             items: 3,
@@ -47,7 +47,7 @@ const ProductCar = () => {
                 <OwlCarousel className="slider-items owl-carousel" {...options}>
                     <div className="item">
                         <div className="testimonial-item">
-                            <a href="api.php"><img src={img1} className="testimonial-img" alt="" />
+                            <a href="https://applepharmagroup.com/api.php"><img src={img1} className="testimonial-img" alt="" />
                                 <h3>API</h3>
                             </a>
                         </div>
@@ -55,7 +55,7 @@ const ProductCar = () => {
 
                     <div className="item">
                         <div className="testimonial-item">
-                            <a href="excipients.php"><img src={img2} className="testimonial-img" alt="" />
+                            <a href="https://applepharmagroup.com/excipients.php"><img src={img2} className="testimonial-img" alt="" />
                                 <h3>Excipients</h3>
                             </a>
                         </div>
@@ -63,7 +63,7 @@ const ProductCar = () => {
 
                     <div className="item">
                         <div className="testimonial-item">
-                            <a href="Vitamins.php"><img src={img3} className="testimonial-img" alt="" />
+                            <a href="https://applepharmagroup.com/Vitamins.php"><img src={img3} className="testimonial-img" alt="" />
                                 <h3>Vitamins</h3>
                             </a>
                         </div>
@@ -71,7 +71,7 @@ const ProductCar = () => {
 
                     <div className="item">
                         <div className="testimonial-item">
-                            <a href="Chemical.php"><img src={img4} className="testimonial-img" alt="" />
+                            <a href="https://applepharmagroup.com/Chemical.php"><img src={img4} className="testimonial-img" alt="" />
                                 <h3>Chemical</h3>
                             </a>
                         </div>
@@ -79,7 +79,7 @@ const ProductCar = () => {
 
                     <div className="item">
                         <div className="testimonial-item">
-                            <a href="Solvents.php"><img src={img5} className="testimonial-img" alt="" />
+                            <a href="https://applepharmagroup.com/Solvents.php"><img src={img5} className="testimonial-img" alt="" />
                                 <h3>Solvents</h3>
                             </a>
                         </div>

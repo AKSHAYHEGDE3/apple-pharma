@@ -1,7 +1,9 @@
-import React from 'react'
+import React,{useState} from 'react'
 import img1 from "../assets/img/mobile-logo.png"
+import "./Navbar.css"
 
-const Navbar = () => {
+const Navbar = ({setDisplay}) => {
+    const [disp,setDisp]=useState(false)
     return (
         <div>
             <header id="header" className="fixed-top d-flex  header-transparent ">
@@ -10,11 +12,11 @@ const Navbar = () => {
                         <div className="container-fluid">
                             <div className="nav-icon2" id="secondary-nav">
                                 <div className="nation-flags">
-                                    <a href="../index.php"> <img src="https://img.icons8.com/color/24/000000/great-britain.png" alt="..." /> </a>
-                                    <a href="../it/index.php"> <img src="https://img.icons8.com/color/24/000000/italy.png" alt="..." /> </a>
-                                    <a href="../es/index.php"> <img src="https://img.icons8.com/color/24/000000/spain-2.png" alt="..." /></a>
-                                    <a href="index.php"> <img src="https://img.icons8.com/color/24/000000/france.png" alt="..." /> </a>
-                                    <a href="../de/index.php"> <img src="https://img.icons8.com/color/24/000000/germany.png" alt="..." /></a>
+                                    <a href="/"> <img src="https://img.icons8.com/color/24/000000/great-britain.png" alt="..." /> </a>
+                                    <a href="/"> <img src="https://img.icons8.com/color/24/000000/italy.png" alt="..." /> </a>
+                                    <a href="/"> <img src="https://img.icons8.com/color/24/000000/spain-2.png" alt="..." /></a>
+                                    <a href="/"> <img src="https://img.icons8.com/color/24/000000/france.png" alt="..." /> </a>
+                                    <a href="/"> <img src="https://img.icons8.com/color/24/000000/germany.png" alt="..." /></a>
                                 </div>
                                 <div className="inner-sec-head">
                                     <div className="nav-left">
@@ -35,23 +37,27 @@ const Navbar = () => {
                             <div className="logo mr-auto" >
                                 <h1 className="text-light"><a href="index.php"><img src={img1} alt="Apple Pharma" className="logo-visibility" /></a></h1>
                             </div>
-
+                            
 
                             <nav className="nav-menu d-none d-lg-block" id="navbar1" >
                                 <ul>
-                                    <li className="active"><a href="index.php">Home</a></li>
-                                    <li><a href="products.php">Products</a></li>
-                                    <li><a href="about us.php">About Us</a></li>
-                                    <li><a href="Contactus.php">Contact Us</a></li>
+                                    <li className="active"><a href="/">Home</a></li>
+                                    <li><a href="https://applepharmagroup.com/products.php">Products</a></li>
+                                    <li><a href="https://applepharmagroup.com/about%20us.php">About Us</a></li>
+                                    <li><a href="https://applepharmagroup.com/Contactus.php">Contact Us</a></li>
 
                                 </ul>
+                               
                             </nav>
-
+                            <div onClick={()=>{setDisp(!disp); setDisplay(disp)}} style={{marginTop:"2rem"}} className='toggle'>
+                                <i style={{color:'black',fontSize:"1.5rem",color:"#000080"}} className="fas fa-sliders-h"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
-
+                
             </header>
+           
         </div>
     )
 }

@@ -19,7 +19,7 @@ const About = () => {
                                 Personal Care and others. Apple Pharma prides itself in serving efficiently The
                                 Indian Pharma and other industries for more than two and a half decades.
                             </p>
-                            <a href="about us.php" className="btn-learn-more">Read More</a>
+                            <a href="https://applepharmagroup.com/about%20us.php" className="btn-learn-more">Read More</a>
                         </div>
                     </div>
 
