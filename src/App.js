@@ -18,7 +18,7 @@ function App() {
       <Navbar setDisplay={setDisplay} />
       <div style={{display:display?"block":"none"}} className='res-div '>
           <ul style={{listStyleType :"none"}}>
-            <li className="active"><a style={{color:"#282c39",fontWeight:"800",fontSize:"1.5rem"}} className="me-2 my-5" href="index.php">Home</a></li>
+            <li className="active"><a style={{color:"#282c39",fontWeight:"800",fontSize:"1.5rem"}}  href="index.php">Home</a></li>
             <li><a style={{color:"#282c39",fontWeight:"800",fontSize:"1.5rem"}} href="products.php">Products</a></li>
             <li><a style={{color:"#282c39",fontWeight:"800",fontSize:"1.5rem"}} href="about us.php">About Us</a></li>
             <li><a style={{color:"#282c39",fontWeight:"800",fontSize:"1.5rem"}} href="Contactus.php">Contact Us</a></li>
